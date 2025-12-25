@@ -3,7 +3,7 @@ package HocVien;
 public class Student {
     private int maSo;
     private String hoTen;
-    private static String coSoDaoTao = "BBDIT";
+    private static String coSoDaoTao = "Đường làng";
 
     public Student() {
 
@@ -13,12 +13,12 @@ public class Student {
         this.hoTen = hoTen;
     }
     static void thayDoi(){
-        coSoDaoTao = "CodeGym";
+        coSoDaoTao = "Tracen Academy";
     }
     void display(){
         System.out.println( "Mã số học viên: " + maSo +
                             "\nHọ tên: " + hoTen +
-                            "\nCơ sở đào tạo: " + coSoDaoTao);
+                            "\nCơ sở huấn luyện: " + coSoDaoTao);
     }
 
 }
